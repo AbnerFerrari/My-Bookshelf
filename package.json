@@ -2,6 +2,9 @@
   "name": "my-bookshelf",
   "version": "1.0.0",
   "license": "MIT",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only src/index.ts",
     "start:prod": "rm -rf ./dist && tsc && node ./dist/src/index.js",
