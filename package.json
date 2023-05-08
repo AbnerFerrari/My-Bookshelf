@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "build": "tsc",
+    "start:prod": "rm -rf ./dist && tsc && node ./dist/src/index.js",
+    "build": "rm -rf ./dist && tsc",
     "test": "vitest"
   },
   "devDependencies": {
