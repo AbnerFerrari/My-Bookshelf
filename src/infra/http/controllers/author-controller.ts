@@ -1,5 +1,5 @@
-import { CreateAuthor } from "@application/use-cases/authors/create-author";
-import { PrismaAuthorsRepository } from "@infra/database/prisma/repositories/authors-repository";
+import { CreateAuthor } from "../../../application/use-cases/authors/create-author";
+import { PrismaAuthorsRepository } from "../../database/prisma/repositories/authors-repository";
 import { Request, Response } from "express";
 
 export class AuthorController {

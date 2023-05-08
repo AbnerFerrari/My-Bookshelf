@@ -1,5 +1,5 @@
-import { Book, BookProps } from "@domain/entities/Book";
-import { BooksRepository } from "@infra/database/repositories/books-repository";
+import { Book, BookProps } from "../../../../domain/entities/Book";
+import { BooksRepository } from "../../repositories/books-repository";
 import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient()
 

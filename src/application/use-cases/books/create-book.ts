@@ -1,5 +1,5 @@
-import { Book } from '@domain/entities/Book'
- import { AuthorsRepository } from '@infra/database/repositories/authors-repository'
+import { Book } from '../../../domain/entities/Book'
+ import { AuthorsRepository } from '../../../infra/database/repositories/authors-repository'
 
 export type CreateBookRequest = {
   name: string

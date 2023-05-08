@@ -1,4 +1,4 @@
-import authorRoutes from '@infra/http/routes'
+import authorRoutes from './infra/http/routes'
 import express from 'express'
 
 const app = express()

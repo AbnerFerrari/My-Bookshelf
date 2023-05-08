@@ -1,5 +1,5 @@
-import { Author } from "@domain/entities/Author";
-import { AuthorsRepository } from "@infra/database/repositories/authors-repository";
+import { Author } from "../../../domain/entities/Author";
+import { AuthorsRepository } from "../../../infra/database/repositories/authors-repository";
 
 type CreateAuthorRequest = {
   name: string

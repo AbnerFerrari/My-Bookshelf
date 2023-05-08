@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node-dev -r tsconfig-paths/register src/index.ts",
+    "start": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
     "test": "vitest"
   },
   "devDependencies": {
